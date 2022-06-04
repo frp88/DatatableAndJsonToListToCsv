@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 
 namespace DatatableAndJsonToListToCsv {
-    class Program {
+    public class Program {
         static void Main(string[] args) {
             // Obtém produtos da tabela do banco de dados SQL Server
             DataTable dtProdutos = ConexaoDbService.ObtemProdutosDaTabelaDoBd();
