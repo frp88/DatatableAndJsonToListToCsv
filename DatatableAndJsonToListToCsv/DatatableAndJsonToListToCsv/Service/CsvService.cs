@@ -8,7 +8,7 @@ namespace DatatableAndJsonToListToCsv {
         // Percorre uma lista de objetos (transforma uma lista de objetos em formato CSV, cria um arquivo CSV e salva esse arquivo no PC
         public static bool CriaArquivoCsv(List<Produto> listaProdutos) {
             try {
-                string filePath = @"D:\Dados\csvProdutos.csv";
+                string filePath = @"C:\Dados\csvProdutos.csv";
                 List<string> linhas = new List<string>();
                 string linha = $"Id;Nome;Estoque;Estoque JSON;Valor;Valor JSON;Data de Cadastro;Data de Atualização";
                 linhas.Add(linha);

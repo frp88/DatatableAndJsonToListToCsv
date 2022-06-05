@@ -8,7 +8,7 @@ namespace DatatableAndJsonToListToCsv {
         // Serializa uma lista de objetos (transforma uma lista de objetos em arquivo JSON e salva no PC)
         public static bool SerializaListaDeProdutos(List<Produto> listaProdutos) {
             try {
-                string jsonFilePatch = @"D:\Dados\jsonProdutos.json";
+                string jsonFilePatch = @"C:\Dados\jsonProdutos.json";
                 // Atribui da Lista de Produtos para o arquivo JSON
                 var jsonProdutos = JsonConvert.SerializeObject(listaProdutos);
                 // Salva o arquivo JSON no PC 
